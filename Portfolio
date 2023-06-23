@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your CAD Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .portfolio-item {
+      margin-bottom: 30px;
+    }
+    
+    .portfolio-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    
+    .portfolio-item p {
+      text-align: center;
+      font-style: italic;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Your CAD Portfolio</h1>
+  
+  <div class="portfolio-item">
+    <img src="path/to/your/image1.jpg" alt="Image 1">
+    <p>Description for Image 1</p>
+  </div>
+  
+  <div class="portfolio-item">
+    <img src="path/to/your/image2.jpg" alt="Image 2">
+    <p>Description for Image 2</p>
+  </div>
+  
+  <div class="portfolio-item">
+    <img src="path/to/your/image3.jpg" alt="Image 3">
+    <p>Description for Image 3</p>
+  </div>
+  
+  <!-- Add more portfolio items as needed -->
+</body>
+</html>
